@@ -1,5 +1,4 @@
-a=27
-b=30
+a,b=map(int,input().split(' '))
 print(a,b)
 a,b=b,a
 print(a,b)
